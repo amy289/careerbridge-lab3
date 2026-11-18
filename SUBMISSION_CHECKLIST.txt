@@ -1,0 +1,20 @@
+LAB 3 SUBMISSION CHECKLIST
+
+[ ] All project files and folders included
+[ ] index.html opens successfully
+[ ] Navigation links work
+[ ] Candidate registration form tested with invalid and valid values
+[ ] Employer registration form tested
+[ ] Login form tested
+[ ] Job search and filters tested
+[ ] Application form tested
+[ ] Resume file selection tested
+[ ] Layout tested on desktop and mobile widths
+[ ] Layout checked at 125% and 150% browser zoom
+[ ] At least 3 screenshots captured
+[ ] LAB_REPORT_TEMPLATE.md completed
+[ ] Git repository created and meaningful commit made (if required by instructor)
+
+IMPORTANT:
+This is a front-end-only educational project. Login/registration do not create real accounts.
+The application form does not upload a resume to a server.

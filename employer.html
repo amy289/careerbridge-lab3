@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employer Registration | CareerBridge</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="jobs.html">Find Jobs</a><a href="register.html">Candidate</a><a class="active" href="employer.html">Employer</a><a href="login.html">Login</a></nav><a class="button button-small" href="jobs.html">Browse jobs</a></div></header>
+  <main id="main" class="form-page"><div class="container narrow-wide">
+    <div class="form-intro"><p class="eyebrow">FOR ORGANIZATIONS</p><h1>Employer registration</h1><p>Share your organization details to prepare a sample employer profile.</p></div>
+    <form class="panel form-stack demo-form" action="#" method="post">
+      <div class="form-grid">
+        <div class="field"><label for="company">Company name <span>*</span></label><input id="company" name="company" type="text" minlength="2" maxlength="100" placeholder="Your organization" required></div>
+        <div class="field"><label for="contact-person">Contact person <span>*</span></label><input id="contact-person" name="contactPerson" type="text" minlength="2" maxlength="80" placeholder="Full name" required></div>
+        <div class="field"><label for="employer-email">Work email <span>*</span></label><input id="employer-email" name="email" type="email" placeholder="name@company.com" required></div>
+        <div class="field"><label for="employer-phone">Phone number <span>*</span></label><input id="employer-phone" name="phone" type="tel" pattern="[0-9+() -]{7,20}" placeholder="+92 300 1234567" required></div>
+        <div class="field"><label for="industry">Industry <span>*</span></label><select id="industry" name="industry" required><option value="">Choose industry</option><option>Information Technology</option><option>Education</option><option>Healthcare</option><option>Finance</option><option>Marketing</option><option>Other</option></select></div>
+        <div class="field"><label for="website">Company website</label><input id="website" name="website" type="url" placeholder="https://example.com"></div>
+      </div>
+      <div class="field"><label for="company-about">Company description <span>*</span></label><textarea id="company-about" name="description" rows="5" minlength="30" maxlength="1000" placeholder="Tell candidates about your organization..." required></textarea></div>
+      <button class="button button-full" type="submit">Create employer profile</button>
+      <p class="form-note">Demo only: employer details are validated in your browser and are not sent or saved.</p>
+      <p class="form-feedback" aria-live="polite"></p>
+    </form>
+  </div></main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><p>© <span data-year>2026</span> CareerBridge. Student project demo.</p><div><a href="jobs.html">Jobs</a><a href="index.html">Home</a></div></div></footer>
+</body>
+</html>

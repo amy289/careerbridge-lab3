@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create Account | CareerBridge</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="jobs.html">Find Jobs</a><a class="active" href="register.html">Register</a><a href="login.html">Login</a></nav><a class="button button-small" href="jobs.html">Browse jobs</a></div></header>
+  <main id="main" class="form-page"><div class="container narrow-wide">
+    <div class="form-intro"><p class="eyebrow">CREATE YOUR PROFILE</p><h1>Join CareerBridge</h1><p>Set up your candidate account and discover opportunities.</p></div>
+    <form class="panel form-stack demo-form" action="#" method="post">
+      <div class="form-grid">
+        <div class="field"><label for="first-name">First name <span>*</span></label><input id="first-name" name="firstName" type="text" autocomplete="given-name" minlength="2" maxlength="40" placeholder="Your first name" required></div>
+        <div class="field"><label for="last-name">Last name <span>*</span></label><input id="last-name" name="lastName" type="text" autocomplete="family-name" minlength="2" maxlength="40" placeholder="Your last name" required></div>
+        <div class="field"><label for="reg-email">Email address <span>*</span></label><input id="reg-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+        <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{7,20}" placeholder="+92 300 1234567"></div>
+        <div class="field"><label for="reg-password">Password <span>*</span></label><input id="reg-password" name="password" type="password" minlength="8" maxlength="64" autocomplete="new-password" placeholder="Minimum 8 characters" required></div>
+        <div class="field"><label for="confirm-password">Confirm password <span>*</span></label><input id="confirm-password" name="confirmPassword" type="password" minlength="8" maxlength="64" autocomplete="new-password" placeholder="Enter password again" required></div>
+      </div>
+      <div class="field"><label for="career-level">Career level <span>*</span></label><select id="career-level" name="careerLevel" required><option value="">Choose your level</option><option>Student</option><option>Fresh graduate</option><option>Entry level</option><option>Experienced professional</option></select></div>
+      <label class="check-label"><input type="checkbox" name="terms" required> I agree to the demo terms and conditions. <span>*</span></label>
+      <button class="button button-full" type="submit">Create account</button>
+      <p class="form-note">Demo only: information is validated in your browser and is not sent to a server or saved.</p>
+      <p class="form-feedback" aria-live="polite"></p>
+    </form>
+    <p class="center muted">Already registered? <a class="text-link" href="login.html">Log in</a></p>
+  </div></main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><p>© <span data-year>2026</span> CareerBridge. Student project demo.</p><div><a href="jobs.html">Jobs</a><a href="index.html">Home</a></div></div></footer>
+</body>
+</html>

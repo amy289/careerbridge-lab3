@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Jobs | CareerBridge</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a class="active" href="jobs.html">Find Jobs</a><a href="register.html">Candidate</a><a href="employer.html">Employer</a><a href="login.html">Login</a></nav><a class="button button-small" href="register.html">Create account</a></div></header>
+  <main id="main" class="section"><div class="container">
+    <div class="page-heading"><p class="eyebrow">FIND YOUR FIT</p><h1>Explore job opportunities</h1><p>Search sample listings and filter by category or work arrangement.</p></div>
+    <form class="filter-panel" id="job-filter" action="jobs.html" method="get">
+      <div class="field"><label for="job-keyword">Keyword</label><input id="job-keyword" name="q" type="search" placeholder="e.g. developer, designer"></div>
+      <div class="field"><label for="job-category">Category</label><select id="job-category" name="category"><option value="">All categories</option><option>Technology</option><option>Design</option><option>Marketing</option><option>Business</option></select></div>
+      <div class="field"><label for="job-type">Work type</label><select id="job-type" name="type"><option value="">Any type</option><option>Full time</option><option>Hybrid</option><option>Remote</option></select></div>
+      <button class="button" type="submit">Filter jobs</button>
+    </form>
+    <p class="results-count" id="results-count" aria-live="polite">Showing 6 sample jobs</p>
+    <div class="job-list" id="job-list">
+      <article class="job-card job-list-card" data-title="Frontend Developer" data-category="Technology" data-type="Full time" data-location="Karachi"><div class="company-logo logo-blue">N</div><div class="job-list-content"><div class="job-title-line"><h2>Frontend Developer</h2><span class="tag">Full time</span></div><p class="company">NovaTech · Karachi</p><p>Build responsive interfaces using HTML, CSS and JavaScript. Great for a detail-oriented developer.</p><div class="job-meta"><span>Rs. 90k–130k</span><span>Posted 2 days ago</span></div></div><a class="button button-outline" href="apply.html?job=Frontend%20Developer">Apply</a></article>
+      <article class="job-card job-list-card" data-title="UI/UX Designer" data-category="Design" data-type="Hybrid" data-location="Lahore"><div class="company-logo logo-purple">P</div><div class="job-list-content"><div class="job-title-line"><h2>UI/UX Designer</h2><span class="tag">Hybrid</span></div><p class="company">PixelWorks · Lahore</p><p>Create user flows, wireframes and polished interface designs with the product team.</p><div class="job-meta"><span>Rs. 80k–120k</span><span>Posted 1 day ago</span></div></div><a class="button button-outline" href="apply.html?job=UI%2FUX%20Designer">Apply</a></article>
+      <article class="job-card job-list-card" data-title="Junior Data Analyst" data-category="Technology" data-type="Remote" data-location="Remote"><div class="company-logo logo-green">D</div><div class="job-list-content"><div class="job-title-line"><h2>Junior Data Analyst</h2><span class="tag">Remote</span></div><p class="company">DataSpring · Remote</p><p>Prepare reports and dashboards, clean datasets and communicate useful findings.</p><div class="job-meta"><span>Rs. 70k–100k</span><span>Posted 3 days ago</span></div></div><a class="button button-outline" href="apply.html?job=Junior%20Data%20Analyst">Apply</a></article>
+      <article class="job-card job-list-card" data-title="Digital Marketing Associate" data-category="Marketing" data-type="Full time" data-location="Islamabad"><div class="company-logo logo-orange">M</div><div class="job-list-content"><div class="job-title-line"><h2>Digital Marketing Associate</h2><span class="tag">Full time</span></div><p class="company">MarketMinds · Islamabad</p><p>Support campaigns, social media calendars and performance reporting.</p><div class="job-meta"><span>Rs. 60k–85k</span><span>Posted 4 days ago</span></div></div><a class="button button-outline" href="apply.html?job=Digital%20Marketing%20Associate">Apply</a></article>
+      <article class="job-card job-list-card" data-title="HR Coordinator" data-category="Business" data-type="Hybrid" data-location="Karachi"><div class="company-logo logo-pink">H</div><div class="job-list-content"><div class="job-title-line"><h2>HR Coordinator</h2><span class="tag">Hybrid</span></div><p class="company">PeopleFirst · Karachi</p><p>Coordinate interviews, maintain candidate records and support onboarding.</p><div class="job-meta"><span>Rs. 55k–75k</span><span>Posted 5 days ago</span></div></div><a class="button button-outline" href="apply.html?job=HR%20Coordinator">Apply</a></article>
+      <article class="job-card job-list-card" data-title="Business Operations Intern" data-category="Business" data-type="Remote" data-location="Remote"><div class="company-logo logo-teal">B</div><div class="job-list-content"><div class="job-title-line"><h2>Business Operations Intern</h2><span class="tag">Remote</span></div><p class="company">BrightPath · Remote</p><p>Help improve processes, organize documentation and prepare weekly updates.</p><div class="job-meta"><span>Stipend available</span><span>Posted 1 week ago</span></div></div><a class="button button-outline" href="apply.html?job=Business%20Operations%20Intern">Apply</a></article>
+    </div>
+    <p class="empty-state" id="empty-state" hidden>No matching jobs found. Try changing your filters.</p>
+  </div></main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><p>© <span data-year>2026</span> CareerBridge. Student project demo.</p><div><a href="register.html">Candidate</a><a href="employer.html">Employer</a><a href="login.html">Login</a></div></div></footer>
+</body>
+</html>

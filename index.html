@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CareerBridge job recruitment portal demo">
+  <title>CareerBridge | Find your next opportunity</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">C</span> CareerBridge</a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="jobs.html">Find Jobs</a>
+        <a href="register.html">Candidate</a><a href="employer.html">Employer</a>
+        <a href="login.html">Login</a>
+      </nav>
+      <a class="button button-small" href="register.html">Create account</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+          <h1>Find work that moves <span>you forward.</span></h1>
+          <p class="hero-copy">Explore opportunities, connect with employers and take the next step in your career with CareerBridge.</p>
+          <form class="quick-search" action="jobs.html" method="get">
+            <label class="sr-only" for="home-keyword">Job title or keyword</label>
+            <input id="home-keyword" name="q" type="search" placeholder="Job title or keyword">
+            <button class="button" type="submit">Search jobs</button>
+          </form>
+          <p class="muted small">Popular: Frontend Developer · UI/UX Designer · Data Analyst</p>
+        </div>
+        <div class="hero-art" aria-label="Career growth illustration" role="img">
+          <div class="art-card art-card-main"><span class="art-icon">↗</span><strong>Career growth</strong><small>Make your next move</small><div class="progress"><span></span></div></div>
+          <div class="art-card art-card-float"><span class="online-dot"></span> New opportunities</div>
+          <div class="art-orbit"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">START EXPLORING</p><h2>Browse by category</h2></div><a class="text-link" href="jobs.html">All jobs →</a></div>
+        <div class="category-grid">
+          <a class="category-card" href="jobs.html?category=Technology"><span class="category-icon">⌘</span><strong>Technology</strong><small>Software, IT & data</small></a>
+          <a class="category-card" href="jobs.html?category=Design"><span class="category-icon">✳</span><strong>Design</strong><small>Creative & product</small></a>
+          <a class="category-card" href="jobs.html?category=Marketing"><span class="category-icon">◉</span><strong>Marketing</strong><small>Brand & growth</small></a>
+          <a class="category-card" href="jobs.html?category=Business"><span class="category-icon">▤</span><strong>Business</strong><small>Operations & finance</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">HAND-PICKED ROLES</p><h2>Featured opportunities</h2></div><a class="text-link" href="jobs.html">Explore all →</a></div>
+        <div class="job-grid">
+          <article class="job-card"><div class="job-top"><span class="company-logo logo-blue">N</span><span class="tag">Full time</span></div><h3>Frontend Developer</h3><p class="company">NovaTech · Karachi</p><p class="job-desc">Build accessible and responsive web experiences with a collaborative product team.</p><div class="job-meta"><span>Rs. 90k–130k</span><span>2 days ago</span></div><a class="button button-outline button-full" href="apply.html?job=Frontend%20Developer">Apply now</a></article>
+          <article class="job-card"><div class="job-top"><span class="company-logo logo-purple">P</span><span class="tag">Hybrid</span></div><h3>UI/UX Designer</h3><p class="company">PixelWorks · Lahore</p><p class="job-desc">Turn user research and ideas into simple, polished digital products.</p><div class="job-meta"><span>Rs. 80k–120k</span><span>1 day ago</span></div><a class="button button-outline button-full" href="apply.html?job=UI%2FUX%20Designer">Apply now</a></article>
+          <article class="job-card"><div class="job-top"><span class="company-logo logo-green">D</span><span class="tag">Remote</span></div><h3>Junior Data Analyst</h3><p class="company">DataSpring · Remote</p><p class="job-desc">Help teams understand data through reports, dashboards and clear insights.</p><div class="job-meta"><span>Rs. 70k–100k</span><span>3 days ago</span></div><a class="button button-outline button-full" href="apply.html?job=Junior%20Data%20Analyst">Apply now</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section"><div class="container cta-box"><div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Your next opportunity is one step away.</h2><p>Create a profile and start applying to roles that match your skills.</p></div><a class="button button-light" href="register.html">Join CareerBridge →</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark">C</span> CareerBridge</a><p>© <span data-year>2026</span> CareerBridge. Student project demo.</p><div><a href="jobs.html">Jobs</a><a href="login.html">Login</a></div></div></footer>
+</body>
+</html>
